@@ -7,11 +7,11 @@ Before diving into code, most interviewers like to chitchat about your backgroun
 You should have at least one:
 ----------------------------------
 
-example of an interesting technical problem you solved-
-example of an interpersonal conflict you overcame
-example of leadership or ownership
-story about what you should have done differently in a past project
-piece of trivia about your favorite language, and something you do and don't like about said language
-question about the company's product/business
-question about the company's engineering strategy (testing, Scrum, etc)
+- example of an interesting technical problem you solved
+- example of an interpersonal conflict you overcame 
+- example of leadership or ownership
+- story about what you should have done differently in a past project
+- piece of trivia about your favorite language, and something you do and don't like about said language
+- question about the company's product/business
+- question about the company's engineering strategy (testing, Scrum, etc)
 
