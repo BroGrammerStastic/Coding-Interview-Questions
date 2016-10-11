@@ -15,3 +15,5 @@ You should have at least one:
 - question about the company's product/business
 - question about the company's engineering strategy (testing, Scrum, etc)
 
+Within this repository, I will be adding all the coding interview related problems here with solutions to help you get a clear picture of the employer is expecting from you.
+
