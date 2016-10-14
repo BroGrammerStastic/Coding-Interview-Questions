@@ -9,7 +9,6 @@ using std::endl;
 using std::ostringstream;
 
 int main() {
-
     int retval = 0;
 
 
