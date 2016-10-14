@@ -1,6 +1,6 @@
 # Items to collect on a map
 
-For this piece of coursework, you will write code to store and work with a map of items to collect, each of which is available for just 15 minutes starting at a certain number of seconds past the hour.  You then will write an algorithm that finds a route that (attempts to) collect them all.
+For this piece of problem, you will write code to store and work with a map of items to collect, each of which is available for just 15 minutes starting at a certain number of seconds past the hour.  You then will write an algorithm that finds a route that (attempts to) collect them all.
 
 # Part (i): The Item class
 
