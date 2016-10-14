@@ -1,6 +1,6 @@
 # Basic building blocks of C++
 
-For this assignment you will code using some of the basic building blocks of C++: vectors, functions, and classes.  
+For this piece of problem, you will code using some of the basic building blocks of C++: vectors, functions, and classes.  
 
 ## The PEP vector class -- technical note
 
