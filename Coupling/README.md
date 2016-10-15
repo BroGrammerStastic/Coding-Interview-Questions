@@ -29,7 +29,7 @@ object:<br \><br \>
 
 `Evidence clothingFibre = new Evidence(‘‘clothing fibre’’);`
 `
-<br \><br \>
+
 To test that this is indeed the case, create another class, Main, within the <partnerApartnerB>
 package. Your package structure should now look something like this:
 <br \><br \>
