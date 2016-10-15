@@ -59,13 +59,17 @@ your program should look like the following:
 
 Implement a class called EvidenceBox, that will represent a box that contains multiple
 pieces of evidence collected from a crime scene or relating to a crime. This class should
-also exist in the tightlycoupled package:
-3
-<partnerApartnerB>/
-. . . . . . Main.java
-. . . . . . tightlycoupled/
-. . . . . . . . . . . . Evidence.java
-. . . . . . . . . . . . EvidenceBox.java
+also exist in the tightlycoupled package:<br/><br/>
+
+
+`<partnerApartnerB>/`<br />
+`. . . . . . Main.java`<br />
+`. . . . . . tightlycoupled/`<br />
+`. . . . . . . . . . . . Evidence.java`<br />
+`. . . . . . . . . . . . EvidenceBox.java`<br />
+
+<br />
+
 EvidenceBox should maintain a record of all the Evidence it currently contains. In addition,
 it should be possible to:
 1. Add new pieces of Evidence to the box.
