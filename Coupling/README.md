@@ -38,8 +38,6 @@ package. Your package structure should now look something like this:
 `. . . . . . tightlycoupled/`<br />
 `. . . . . . . . . . . . Evidence.java`<br />
 
-<br \><br \>
-
 If this package structure representation doesn’t make sense to you, follow the appropriate
 channels listed in the ‘Additional Support’ section of KEATS for further clarification.
 Main should be directly executable, and into Main you should paste the test case given
@@ -49,13 +47,16 @@ object, which may contain the same type of evidence, or a different type. Paste 
 test case into Main also, so that Main contains both of your test cases, both of which
 should make brand new Evidence objects, that either pertain to two different, or two of
 the same types of evidence.
+
 Call System.out.println with each of your Evidence objects so that when Main is executed,
 the two types of evidence that these objects represent are printed to the console
 in your IDE. If your partner was to have the evidence type “DNA”, then the output from
 your program should look like the following:
-clothing fibre
+
+`clothing fibre
 DNA
-3 Storing evidence
+3 Storing evidence`
+
 Implement a class called EvidenceBox, that will represent a box that contains multiple
 pieces of evidence collected from a crime scene or relating to a crime. This class should
 also exist in the tightlycoupled package:
