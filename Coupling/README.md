@@ -28,15 +28,15 @@ Once you have done this, the following test case should successfully create a ne
 object:<br \><br \>
 
 `Evidence clothingFibre = new Evidence(‘‘clothing fibre’’);`
-`
 
 To test that this is indeed the case, create another class, Main, within the <partnerApartnerB>
 package. Your package structure should now look something like this:
 <br \><br \>
-`<partnerApartnerB>/
-. . . . . . Main.java
-. . . . . . tightlycoupled/
-. . . . . . . . . . . . Evidence.java`
+
+`<partnerApartnerB>/`<br />
+`. . . . . . Main.java`<br />
+`. . . . . . tightlycoupled/`<br />
+`. . . . . . . . . . . . Evidence.java`<br />
 
 <br \><br \>
 
