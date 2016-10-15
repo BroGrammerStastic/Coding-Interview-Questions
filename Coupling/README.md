@@ -53,9 +53,9 @@ the two types of evidence that these objects represent are printed to the consol
 in your IDE. If your partner was to have the evidence type “DNA”, then the output from
 your program should look like the following:
 
-`clothing fibre`
-`DNA`
-`3 Storing evidence`
+`clothing fibre`<br />
+`DNA`<br />
+`3 Storing evidence`<br />
 
 Implement a class called EvidenceBox, that will represent a box that contains multiple
 pieces of evidence collected from a crime scene or relating to a crime. This class should
