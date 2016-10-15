@@ -55,7 +55,8 @@ your program should look like the following:
 
 `clothing fibre`<br />
 `DNA`<br />
-`3 Storing evidence`<br />
+
+#Storing Evidence
 
 Implement a class called EvidenceBox, that will represent a box that contains multiple
 pieces of evidence collected from a crime scene or relating to a crime. This class should
@@ -72,65 +73,80 @@ also exist in the tightlycoupled package:<br/><br/>
 
 EvidenceBox should maintain a record of all the Evidence it currently contains. In addition,
 it should be possible to:
-1. Add new pieces of Evidence to the box.
-2. Extract the record of all the Evidence currently in the box.
-3. Display each type of Evidence currently in the box on a new line in the console of
+
+- Add new pieces of Evidence to the box.
+- Extract the record of all the Evidence currently in the box.
+- Display each type of Evidence currently in the box on a new line in the console of
 the IDE. If there are multiple instances of the same type of evidence in a box, then
 the output line for that type should be Nx type, where N is the number of occurrences
-of that type (e.g. 2x clothing fibre).
+of that type (e.g. 2x clothing fibre).<br />
+
 In addition, every EvidenceBox should have a caseNumber and a caseName (written on
 the side, we might imagine). It should be possible to get the case number from an
-EvidenceBox.
+EvidenceBox.<br />
+
 Inside Main, after the code which creates your test case Evidence object, and your partner’s,
 and prints them, create an EvidenceBox with the case number 2005000381 and the
-case name “S. Avery”, and then add your two Evidence objects to it.
+case name “S. Avery”, and then add your two Evidence objects to it.<br />
+
 Then, display all the types of evidence in the EvidenceBox you just created, so that
 when Main is now executed the output from your program appears as the following (again
-assuming your partner has the evidence type “DNA”):
-clothing fibre
-DNA
-1x clothing fibre
-1x DNA
+assuming your partner has the evidence type “DNA”):<br />
+
+`clothing fibre`
+`DNA`
+`1x clothing fibre`
+`1x DNA`
+<br />
+
 So, the types of both test case Evidence objects should be printed (as implement in the
 previous section), and then summarised by adding these objects to an EvidenceBox and
 displaying the contents of that box (as implemented in this section).
-4
-4 Examining the evidence
+
+#Examining the evidence
+
 Implement a class called Policeman (or Cop, if you prefer to use the vernacular from across
-the pond):
-<partnerApartnerB>/
-. . . . . . Main.java
-. . . . . . tightlycoupled/
-. . . . . . . . . . . . Evidence.java
-. . . . . . . . . . . . EvidenceBox.java
-. . . . . . . . . . . . Policeman.java
+the pond):<br />
+
+`<partnerApartnerB>/`<br />
+`. . . . . . Main.java`<br />
+`. . . . . . tightlycoupled/`<br />
+`. . . . . . . . . . . . Evidence.java`<br />
+`. . . . . . . . . . . . EvidenceBox.java`<br />
+`. . . . . . . . . . . . Policeman.java`<br />
+
 Every Policeman should have a name, and this name should be printed to the console in
 your IDE whenever a Policeman object is printed.
 Policemen can have, in their possession at any one time, a collection of EvidenceBoxes
 for examination. When a Policeman takes an EvidenceBox, it should be stored in this
-collection.
+collection.<br />
+
 Inside Main, create two Policemen with the names “J. Lenk” and “A. Colborn”. Then,
 make the Policeman object that represents J. Lenk take the EvidenceBox you created in
 the previous section, with the case number 2005000381 and the case name S. Avery.
+<br />
+
 Next, we want to give a Policeman the ability to get all pieces of evidence of a certain
 type from a box in their possession with a certain case number. For example, J. Lenk may
 wish to find all pieces of DNA evidence in the box with the case number 2005000381. The
 general procedure required within the Policeman class to do this is as follows:
-1. Assume the presence of a desired caseNumber (e.g. 2005000381) and a desired type
+<br />
+
+- Assume the presence of a desired caseNumber (e.g. 2005000381) and a desired type
 of evidence (e.g. “DNA”).
-2. Define a list that will store all the objects from an evidence box that match the
+- Define a list that will store all the objects from an evidence box that match the
 desired type.
-3. Go through each EvidenceBox in the Policeman’s possession.
-4. Determine whether the case number of the current EvidenceBox matches the desired
+- Go through each EvidenceBox in the Policeman’s possession.
+- Determine whether the case number of the current EvidenceBox matches the desired
 case number. If it does, select this box.
-5. Extract the record of all pieces of Evidence in the selected EvidenceBox (this functionality
+- Extract the record of all pieces of Evidence in the selected EvidenceBox (this functionality
 was provided inside EvidenceBox in Section 3, Point 2).
-5
-6. Examine each piece of Evidence in the record extracted from the selected EvidenceBox
+- Examine each piece of Evidence in the record extracted from the selected EvidenceBox
 in turn.
-7. Check whether the current piece of Evidence being examined matches the desired
+- Check whether the current piece of Evidence being examined matches the desired
 type of evidence that is being searched for. If it does, add it to the list of objects
-that match the desired type.
+that match the desired type.<br />
+
 Implement this procedure, so that inside Main you can instruct J. Lenk to get all the
 DNA evidence in S. Avery’s case, 2005000381 (there may not be any DNA evidence in
 your EvidenceBox instance, depending on the types of evidence you and your partner have
@@ -138,15 +154,18 @@ on your coursework specification, but this is ok). To confirm that this evidence
 located, you should print the result of the procedure above (i.e. in this example, the list
 of Evidence objects that are of DNA type in your EvidenceBox), with a suitable prefix.
 Again, this may be a null result if you do not happen to have any DNA evidence in your
-evidence box.
-Your sample output should therefore now look like the following:
-clothing fibre
-DNA
-1x clothing fibre
-1x DNA
-Pieces of DNA Evidence in Evidence Box number 2005000381 found by J. Lenk:
-[DNA]
-5 Starting to visualise things (optional)
+evidence box.<br />
+
+Your sample output should therefore now look like the following:<br />
+
+`clothing fibre`<br />
+`DNA`<br />
+`1x clothing fibre`<br />
+`1x DNA`<br />
+`Pieces of DNA Evidence in Evidence Box number 2005000381 found by J. Lenk:[DNA]`<br />
+
+# Starting to visualise things (optional)
+
 At this point, you may like to implement a simple console-based GUI to allow a user to
 interact with the code you have produced so far. In other words, you might like to extend
 your program in order to use Scanner and System.in to read input from a user in order
@@ -154,10 +173,10 @@ to carry out the tasks you have done so far in Main in an ad-hoc and dynamic man
 For example, you might like to offer the user a simple choice whereby they can choose to
 create a new piece of evidence with a type, a new evidence box with a case number and
 case name, or to add an existing piece of evidence to an evidence box. Feedback can be
-given to the user via System.out.
-Essential: Your console-based code must not interfere with your existing classes. Use
+given to the user via System.out.<br />
+
+**Essential:** Your console-based code must not interfere with your existing classes. Use
 Main as a model; a class that simply makes and interacts with the objects created, without
-6
 those objects being dependent upon Main’s existence. Separating the ‘view’ of a program
 from the ‘functionality’ was discussed briefly in PRP last semester, and will be discussed
 in more detail in this module later in the semester.
