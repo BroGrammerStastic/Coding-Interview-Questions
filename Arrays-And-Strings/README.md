@@ -17,3 +17,12 @@ Implement an algorithm to determine if a string has all unique characters.
   1. **`True`**
   2. **`False`**
   3. **`False`**
+
+
+####Challenge
+Once a **`char[]`** has been detected duplicate, replace that **`char[]`** with
+a new character that comes after the old character.
+
+for example:
+`YourMethod("Hello")` - **`char[ "H", "e", "l", "l", "o"]`**.
+duplicate value detected at index **3**. replace *`l`* with *`m`*. 
