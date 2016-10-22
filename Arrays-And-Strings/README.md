@@ -24,5 +24,7 @@ Once a **`char[]`** has been detected duplicate, replace that **`char[]`** with
 a new character that comes after the old character.
 
 for example:
-`YourMethod("Hello")` - **`char[ "H", "e", "l", "l", "o"]`**.
-duplicate value detected at index **3**. replace *`l`* with *`m`*. 
+`YourMethod("Hello")`:
+  - **`char[ "H", "e", "l", "l", "o"]`**.
+  - Duplicate value detected at index **3**.
+  - Replace *`l`* with *`m`*. 
