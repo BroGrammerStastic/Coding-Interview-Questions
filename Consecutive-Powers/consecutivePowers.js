@@ -13,15 +13,31 @@ POWER = (function () {
   **/
   'use strict';
 
-  var property = function(getNumber) {
-    // code in here
+  var property = function(number) {
+    var getNumber         = number,
+    numberArray           = [],
+    convertNumberToString = getNumber.toString();
+
+    for (var i = 0; i < convertNumberToString.length; i++) {
+      numberArray.push(
+        +convertNumberToString.charAt(i)
+      );
+    }
+    //console.log( Math.pow(numberArray[1],2) );
+
+    var add = 0;
+    for (var j = 0; j < numberArray.length; j++) {
+      add = Math.pow(numberArray[j],j+1);
+    }
+
+    console.log(add);
   };
 
 
 
   var initialize = function() {
     // calling functions here
-    property(13);
+    property(89);
   };
 
   /*
