@@ -1,13 +1,11 @@
 # Binary Search Trees
 
-In this coursework you will be making a Binary Search Tree template class.  The coursework has two deadlines:
+In this project you will be making a Binary Search Tree template class.  The project has two parts:
 
-- Parts a, b and c are due on Wednesday the 26th of October, at 11pm.  These add up to *10 marks*.
-- Part d is due on Wednesday the 2nd of November, at 11pm.  This is worth *5 marks*.
+- Parts a, b and c.
+- Part d.
 
-Note that part d is challenging, and not all students will manage to complete it fully.  This is not a cause for alarm: as this module is assessed 100% by coursework, it has to cover the same range of difficulty as a written examination, which ordinarily contain questions that not all students can answer well.
-
-Note that in answering these questions, you should not add any `#include` or `using` statements: you must implement the functionality yourself, without using any additional data structures from the standard library.  I have added `#include <memory>` for `std::unique_ptr`, `#include <utility>` for `std::pair`, and `#include <iostream>`.  If you have a convincing need for adding a different `#include` please post in the forum on KEATS.
+Note that in answering these questions, you should not add any `#include` or `using` statements: you must implement the functionality yourself, without using any additional data structures from the standard library.  I have added `#include <memory>` for `std::unique_ptr`, `#include <utility>` for `std::pair`, and `#include <iostream>`.
 
 # a) Making a tree node [3 marks]
 
