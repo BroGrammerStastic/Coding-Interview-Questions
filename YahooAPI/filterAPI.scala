@@ -1,7 +1,6 @@
 // Advanvced Part 3 about really dump investing strategy
 //=======================================================
 //two test portfolios
-
 val blchip_portfolio = List("GOOG", "AAPL", "MSFT", "IBM", "FB", "YHOO", "AMZN", "BIDU")
 val rstate_portfolio = List("PLD", "PSA", "AMT", "AIV", "AVB", "BXP", "CBG", "CCI",
                             "DLR", "EQIX", "EQR", "ESS", "EXR", "FRT", "GGP", "HCP")
