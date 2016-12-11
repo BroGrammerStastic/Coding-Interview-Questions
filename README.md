@@ -1,19 +1,31 @@
+# Coding-Interview-Questions
+
+If you've just received a call for an interview for a programming based job,
+you would almost expect some programming related questions. In fact, you'll be
+asked to do some programming in the interview. The thought of knowing the whole
+room is watching you code on a whiteboard is genuinely scary. The pressure is
+immense! But you'd feel calm if you are confident in your programming abilities.
+
+The question is; Are you confident? Do you have a lot of programming experience?
+Do you think you have what it takes to step into the field?
+
+Whatever situation you're in, if you give ago at each of the practice question
+in this repository. You'll be ready.
+
+Before diving into code, most interviewers like to chitchat about your
+background. They're looking for:
+- **Metacognition** - About coding. Do you think about how to code well?
+- **Ownership/leadership** - Do you see your work through to completion? Do you
+  fix things that aren't quite right, even if you don't have to?
+- **Communication** -  Would chatting with you about a technical problem be
+  useful or painful?
+
   *`If all you know how to do is write glue code, you may call yourself a code
   monkey. Lots of glue code needs to be written and you can make a decent living
   as a code monkey. To call yourself a Real Programmer TM and be trusted when code
   needs to be written from scratch, you have to know algorithms, data structures,
   memory management, pointers, assembly language, etc. and understand how to use
   this knowledge to evaluate trade offs.`*
-
-
-  # Coding-Interview-Questions
-  Before diving into code, most interviewers like to chitchat about your
-  background. They're looking for:
-  - **Metacognition** - About coding. Do you think about how to code well?
-  - **Ownership/leadership** - Do you see your work through to completion? Do you
-    fix things that aren't quite right, even if you don't have to?
-  - **Communication** -  Would chatting with you about a technical problem be
-    useful or painful?
 
 You should have at least one:
 ----------------------------------
