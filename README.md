@@ -24,8 +24,8 @@ problems here with solutions.
 
 Feel free to use them and make them efficient in any way.
 
-## Data structures
-
+## Coding Questions
+----------------------------------
 - [AVLTree](https://github.com/BroGrammerStastic/Coding-Interview-Questions/tree/master/AVLTree)
 - [Airport-Gates](https://github.com/BroGrammerStastic/Coding-Interview-Questions/tree/master/Airport-Gates)
 - [Arrays-And-Strings](https://github.com/BroGrammerStastic/Coding-Interview-Questions/tree/master/Arrays-And-Strings)
