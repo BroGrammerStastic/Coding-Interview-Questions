@@ -7,6 +7,13 @@ background. They're looking for:
 - **Communication** -  Would chatting with you about a technical problem be
   useful or painful?
 
+  *`If all you know how to do is write glue code, you may call yourself a code
+  monkey. Lots of glue code needs to be written and you can make a decent living
+  as a code monkey. To call yourself a Real Programmer TM and be trusted when code
+  needs to be written from scratch, you have to know algorithms, data structures,
+  memory management, pointers, assembly language, etc. and understand how to use
+  this knowledge to evaluate trade offs.`*
+
 You should have at least one:
 ----------------------------------
 
