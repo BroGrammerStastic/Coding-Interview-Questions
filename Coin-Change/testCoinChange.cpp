@@ -1,4 +1,4 @@
-#include "HowManyWaysToMake.h"
+#include "coinChange.h"
 
 #include <iostream>
 using std::cout;
