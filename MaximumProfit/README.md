@@ -21,30 +21,3 @@ To maximise profit, we would want to buy low and sell high -- in this case, buy 
 In `trade.h` define a template function `bestProfit` that takes two iterators, denoting the begin() and end() of a range of prices, and returns an integer denoting the best profit that could be made (for the example above: 8).
 
 *Note: as with part (a), imperative loops are forbidden, and you must not write any functions other than `bestProfit`.*
-
-## How many ways to make [2 marks]
-
-In the file trade.h, write a function `howManyWaysToMake` that, given:
-
-- a begin and end iterator over a range of coin sizes (with no duplicates)
-- a target amount of money
-
-... returns how many ways there are to make that amount of money, using those coins.
-
-For instance, for iterators over the range of coin sizes `{6,2,1}` and target amount 9, your function would return 7 -- the following sums all add up to 9:
-
-`1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1`  
-`2 + 1 + 1 + 1 + 1 + 1 + 1 + 1`  
-`2 + 2 + 1 + 1 + 1 + 1 + 1`  
-`2 + 2 + 2 + 1 + 1 + 1`  
-`2 + 2 + 2 + 2 + 1`  
-`6 + 1 + 1 + 1`  
-`6 + 2 + 1`  
-
-Note:
-
-- You don't have to return the different ways of making the amount of money, just how many there are.
-- Don't count equivalent combinations more than once.  `6 + 2 + 1` is the same as `6 + 1 + 2` is the same as `1 + 2 + 6` etc.
-
-
-To perform tests on your code, compile and run `testTrade.cpp`.
