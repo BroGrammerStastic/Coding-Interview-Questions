@@ -37,7 +37,7 @@ Once you have done this, create a class function `distanceTo` that will take ano
 `c = 2 * atan2( sqrt(a), sqrt(1-a) )`  
 `distance = R * c (where R is the radius of the Earth)`  
 
-Note that this pseudo-code assumes the latitude and longitude are in *radians*, whereas your class stores them in degrees, so you will need to convert them to radians first.  `cos`, `sin` and the other trignometric functions can be obtained by putting `#include <cmath>` at the top of Item.h.  You should assume `R`, the radius of the earth in metres, is 6373000.
+Note that this pseudo-code assumes the latitude and longitude are in *radians*, whereas your class stores them in degrees, so you will need to convert them to radians first.  `cos`, `sin` and the other trigonometric functions can be obtained by putting `#include <cmath>` at the top of Item.h.  You should assume `R`, the radius of the earth in metres, is 6373000.
 
 To test your code, you can use ItemTest.cpp.  To compile to an executable `ItemTest`, run:
 

@@ -23,7 +23,7 @@ The price of a given commodity, can be represented by a vector of prices.  For i
 
 `vector<int> prices {28, 18, 20, 26, 24};`  
 
-To maximise profit, we would want to buy low and sell high -- in this case, buy at time 1 (when the cost is 18), sell at time 3 (when the cost is 26).
+To maximize profit, we would want to buy low and sell high -- in this case, buy at time 1 (when the cost is 18), sell at time 3 (when the cost is 26).
 
 In `Trade.h` implement a function `bestBuySellTime` that takes a vector of prices and returns a `Trade' object with the buy and sell time that maximises profit.  This function does not live inside any class -- it is to be defined as a global function.  *(Note that as the price vector may be large, avoid copying it within your implementation.)*
 

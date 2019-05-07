@@ -16,7 +16,7 @@ The price of a given commodity, can be represented by a vector of prices.  For i
 
 `vector<int> prices {28, 18, 20, 26, 24};`  
 
-To maximise profit, we would want to buy low and sell high -- in this case, buy at time 1 (when the cost is 18), sell at time 3 (when the cost is 26).
+To maximize profit, we would want to buy low and sell high -- in this case, buy at time 1 (when the cost is 18), sell at time 3 (when the cost is 26).
 
 In `trade.h` define a template function `bestProfit` that takes two iterators, denoting the begin() and end() of a range of prices, and returns an integer denoting the best profit that could be made (for the example above: 8).
 
